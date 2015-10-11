@@ -15,4 +15,6 @@ class UsersController < ApplicationController
 
   def delete
   end
+  def user_status
+  end
 end
