@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<title>Attendance</title>
+  		<%= stylesheet_link_tag   'dashboard/application.css', media: 'all', 'data-turbolinks-track' => true %>
+  		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  		<%= csrf_meta_tags %>	
+	</head>
+	<body>
+	 <div class="container-fluid">
+      <div class="row">
+		<%=render "users/header" %>
+		<%=render "users/sidebar" %>
+		<%= yield %>
+		</div>
+		</div>
+	</body>
+</html>
