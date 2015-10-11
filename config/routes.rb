@@ -2,7 +2,7 @@ Rails.application.routes.draw do
  
   resources :users do
     collection do
-      get :user_status
+      get :list_users
     end
   end
 
